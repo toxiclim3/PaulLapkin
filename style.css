@@ -362,7 +362,7 @@ hr{
 	color: white;
 }
 .form{
-	width: 40%;
+	width: 45%;
 	height: 900px;
 	background: linear-gradient(to top right, #676977, #4e627c);
 	margin-top: 100px;
@@ -371,31 +371,35 @@ hr{
 	padding-right: 50px;
 	color:  white;
 }
-.addres{
-	width: 760px;
-	height: 300px;
+.addres
+{
+	width: 130%;
+	height: 287px;
 	background: linear-gradient(to top left,#676977 ,#4e627c );
 	margin-top: 100px;
 	margin-left: 20px;
-	float: top
+	/*float: top*/
 }
-.phone{
-	width: 760px;
-	height: 300px;
+.phone
+{
+	width: 130%;
+	height: 287px;
 	background: linear-gradient(to top right, #4e627c, #676977);
 	margin-left: 20px;
 	margin-top: 20px;
-	float: right;
+	/*float: right;*/
 }
-.web{
-	width: 760px;
-	height: 300px;
+.web
+{
+	width: 130%;
+	height: 287px;
 	background: linear-gradient(to top left,#676977 ,#4e627c );
 	margin-left: 20px;
 	margin-top: 20px;
-	float: bottom;
+	/*float: bottom;*/
 }
-.form h5{
+.form h5
+{
 	text-transform: uppercase;
 	padding-top: 70px;
 	font-size: 2em;
@@ -403,47 +407,61 @@ hr{
 }
 input
 {
-	background: #64657d;
+	background: #36454f;
 	border: 1px solid white;
 	color: white;
 	height: 50px;
 	margin-top: 20px;
 	padding-left: 15px
 }
-.addres h5{
+form textarea
+{
+	margin-top: 20px;
+	background: #36454f;
+	border:1px solid white;
+
+}
+.addres h5
+{
 	text-transform: uppercase;
 	padding-top: 70px;
 	font-size: 2em;
 	padding-bottom: 30px;
 	padding-left: 50px;
 }
-.addres p{
+.addres p
+{
 	padding-left: 50px;
 	padding-right: : 50px;
 }
-.phone h5{
+.phone h5
+{
 	font-size: 2em;
 	padding-bottom: 30px;
 	padding-left: 50px;
 	text-transform: uppercase;
 	padding-top: 70px;
 }
-.phone p{
+.phone p
+{
 	padding-left: 50px;
 	padding-right: : 50px;
 }
-.web h5{
+.web h5
+{
 	font-size: 2em;
 	padding-bottom: 30px;
 	padding-left: 50px;
 	text-transform: uppercase;
 	padding-top: 70px;
 }	
-.web p{
+.web p
+{
 	padding-left: 50px;
 	padding-right: : 50px;
 }
-.form button{
+.form button
+{
 	border: 0;
 	background: #ff2b4a;
 	border: 1px solid #550000;
@@ -475,8 +493,8 @@ input
 	transition: 0.45s;
 	border: 1px solid #ff2b4a;
 }
-.proc
-footer{
+.proc footer
+{
 	width: 100%;
 	height: 230px;
 	background: #222222;
@@ -486,9 +504,15 @@ footer{
 footer i{
 	padding-top: -50px
 }
-footer i:hover{
+footer i:hover
+{
 	cursor: pointer;
 }
+.fa-twitter{color:#00aced;}
+.fa-facebook-official{color:#4267B2;}
+.fa-telegram{color:#0088CC;}
+.fa-instagram{color:#E1306C;}
+
 
 /*------------adaptation------------*/
 @media (min-width: 320px) and (max-width: 600px)
